@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Savoria in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "name": "Launch Savoria in Edge",
+      "type": "msedge",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "name": "Launch Auth Page in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/auth.html"
+    }
+  ]
+}
